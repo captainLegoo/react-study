@@ -37,6 +37,28 @@
   }
 }
 
-.name {
-  color: red;
+.addTask {
+  background-color: rgb(80, 165, 255);
+  height: 200px;
+  align-items: center;
+  display: flex;  
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskList h1 {
+  margin-right: 10px;
 }
