@@ -2,6 +2,7 @@
 /react/node_modules
 /typescript/node_modules
 /firebase-social-media/node_modules
+/reactjs-todolist/node_modules
 
 # dependencies
 /node_modules
