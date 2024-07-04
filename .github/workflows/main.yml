@@ -1,0 +1,24 @@
+name: React Project Workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: cd dashboard && npm install
+
+    - name: Build project
+      run: cd dashboard && npm run build
