@@ -5,6 +5,8 @@
 /reactjs-todolist/node_modules
 /nasa-react-app/node_modules
 /swoley-fit/node_modules
+/free-scribe/node_modules
+/dashboard/node_modules
 
 # dependencies
 /node_modules
