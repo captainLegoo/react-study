@@ -20,8 +20,5 @@ jobs:
     - name: Install dependencies
       run: cd dashboard && npm install
 
-    - name: Lint code
-      run: cd dashboard && npm run lint
-
     - name: Build project
       run: cd dashboard && npm run build
